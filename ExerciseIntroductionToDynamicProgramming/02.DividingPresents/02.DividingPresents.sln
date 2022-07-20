@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.DividingPresents", "02.DividingPresents\02.DividingPresents.csproj", "{CEDF0294-728B-46D9-BDC7-9CE29FA836A9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CEDF0294-728B-46D9-BDC7-9CE29FA836A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEDF0294-728B-46D9-BDC7-9CE29FA836A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEDF0294-728B-46D9-BDC7-9CE29FA836A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEDF0294-728B-46D9-BDC7-9CE29FA836A9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1BF01848-2B6D-459C-A53D-E7A990ED3560}
+	EndGlobalSection
+EndGlobal
