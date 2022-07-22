@@ -1,0 +1,42 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Numerics;
+
+namespace _01.MoveDownRight
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            int m = int.Parse(Console.ReadLine());
+            int n = int.Parse(Console.ReadLine());
+
+            Console.WriteLine(NumberOfPaths(m, n));
+        }
+
+        private static BigInteger NumberOfPaths(int m, int n)
+        {
+            var count = new BigInteger[m, n];
+
+            for (int i = 0; i < m; i++)
+            {
+                count[i, 0] = 1;
+            }
+
+            for (int j = 0; j < n; j++)
+            {
+                count[0, j] = 1;
+            }
+
+            for (int i = 1; i < m; i++)
+            {
+                for (int j = 1; j < n; j++)
+                {
+                    count[i, j] = (count[i - 1, j] + count[i, j - 1]);
+                }
+            }
+
+            return count[m - 1, n - 1];
+        }
+    }
+}
